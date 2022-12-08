@@ -1,0 +1,18 @@
+.products table {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.products table thead tr th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(100, 215, 194);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 3;
+}
+
+.products table tbody tr td {
+    padding: 7px 0;
+}

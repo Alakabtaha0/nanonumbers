@@ -1,0 +1,31 @@
+.create-number-input-position {
+    top: 20%;
+    right: 5%;
+    width: 500px;
+}
+
+.margin-right {
+    margin-right: none;
+}
+
+.input-design {
+    border: none;
+    background-color: rgba(0, 200, 255, 0.12);
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid rgb(24, 205, 178);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    transition-duration: 400ms;
+}
+
+.input-design:focus {
+    background-color: rgba(0, 200, 255, 0.25);
+}
+
+.input-spacing {
+    margin: 0 10px;
+}

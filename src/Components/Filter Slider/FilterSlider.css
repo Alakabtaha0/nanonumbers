@@ -1,0 +1,93 @@
+.slider--position {
+    position: relative;
+    z-index: 5;
+}
+
+.slider {
+    position: relative;
+    width: 200px;
+}
+
+.slider__track, .slider__range {
+    border-radius: 5px;
+    height: 10px;
+    position: absolute;
+}
+
+.slider__track {
+    background-color: black;
+    z-index: 2;
+}
+
+/*Removing default appearance*/
+
+.thumb, .thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color:black;
+}
+
+.thumb {
+    pointer-events: none;
+    position: absolute;
+    height: 1px;
+    width: 200px;
+    background-color: black;
+}
+
+.thumb--zindex-3 {
+    z-index: 3;
+}
+
+.thumb--zindex-4 {
+    z-index: 4;
+}
+
+.thumb--zindex-5 {
+    z-index: 5;
+}
+
+.slider__left-value,
+.slider__right-value {
+  color: black;
+  font-size: 12px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.slider__left-value {
+  left: 5px;
+}
+
+.slider__right-value {
+  right: 0;
+}
+
+/*For Chrome Browsers*/
+
+.thumb::-webkit-slider-thumb {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px black;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 0px;
+    pointer-events: all;
+    position: relative;
+}
+
+/*For Firefox browsers*/
+.thumb::-moz-range-thumb {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px black;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 0px;
+    pointer-events: all;
+    position: relative;
+}
+

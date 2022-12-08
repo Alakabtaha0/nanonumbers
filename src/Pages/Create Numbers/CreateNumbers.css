@@ -1,0 +1,19 @@
+.enter--numbers--field {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.accordion {
+    max-width: 600px;
+    margin: 5rem auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.faq--section {
+    margin-top: 300px;
+}

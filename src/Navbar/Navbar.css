@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 0 100px;
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    transition: color 200ms ease;
+}
+
+.nav:hover {
+    color: grey;
+}

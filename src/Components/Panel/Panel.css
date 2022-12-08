@@ -1,0 +1,54 @@
+.panel {
+    position: absolute;
+}
+
+.inherit-panel {
+    height: inherit;
+    width: inherit;
+}
+
+.panel-box {
+    position: inherit;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 10px;
+    transition: transform 400ms;
+}
+
+[data-panelparent] {
+    cursor: pointer;
+}
+
+[data-panelparent]:hover > [data-panel='1'] {
+    transform: translate(-10px, -10px);
+}
+
+[data-panelparent]:hover > [data-panel='-1'] {
+    transform: translate(10px, 10px);
+}
+
+.panel-design1 {
+    z-index: -1;
+    position: inherit;
+    top: 10px;
+    left: 20px;
+}
+
+.panel-design2 {
+    z-index: -2;
+    position: inherit;
+    top: 20px;
+    left: 30px;
+    transition: transform 400ms;
+}
+
+.panel-box p {
+    position: absolute;
+    bottom: 0;
+}
+
+.panel-box h3 {
+    font-size: 100%;
+    padding: 1px 10px 3px;
+}

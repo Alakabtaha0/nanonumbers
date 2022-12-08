@@ -1,0 +1,47 @@
+.product-name {
+    font-weight: 700;
+}
+
+.product-price {
+    font-weight: 900;
+}
+
+.product--logo--dh {
+    height: 50px;
+}
+
+.product--logo--dp div img {
+    position: relative;
+    height: 20px;
+    filter: invert(1);
+    padding-top: 5px;
+    z-index: 2;
+    transition: all 400ms;
+}
+
+.button-logo-background {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: burlywood;
+    z-index: 1;
+}
+
+.button-logo-border {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all 400ms;
+    z-index: 0;
+}
+
+.product--logo--dp div:hover img {
+    transform: translate(-5px, -5px);
+}
+
+.product--logo--dp div:hover + .button-logo-border {
+    transform: translate(5px, 5px);
+}

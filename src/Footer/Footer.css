@@ -1,0 +1,172 @@
+.page-footer {
+    background-color: black;
+    box-sizing: content-box;
+}
+
+.footer--main {
+    background-color: black;
+    margin: 50px auto 0;
+    max-width: 1286px;
+    padding: 0 40px;
+}
+
+
+
+/*Footer Links*/
+.footer--link--container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+
+.footer--links {
+    padding-top: 3em;
+    color: white;
+}
+
+.footer--links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.footer--links ul li {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+/*Footer NEWSLETTER*/
+.footer--sign-up {
+    text-align: center;
+    color: white;
+    margin: 30px 0 55px;
+}
+
+.footer--sign-up p {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 0 32px;
+}
+
+.footer--inputs {
+    display: inline;
+}
+
+.footer--inputs input {
+    background: none;
+    border-bottom: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    width: 300px;
+    padding: 6px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 30px;
+    outline: none;
+    transition: all 400ms;
+}
+
+.footer--inputs input:focus {
+    border-bottom: 1px solid white;
+    text-transform: none;
+}
+
+.footer--inputs button {
+    background-color: rgb(1, 117, 184);
+    border: none;
+    color: white;
+    padding: 8px 58px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 100ms;
+}
+
+.footer--inputs button:active {
+    background-color: rgb(0, 78, 124);
+    transform:scale(0.95);
+}
+
+
+
+
+/*Footer --- PAYMENTS AND SOCIAL MEDIA*/
+.footer--icons {
+    color: white;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--socialmedia ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer--socialmedia ul li {
+    display: inline;
+}
+
+.footer--socialmedia ul li img {
+    height: 45px;
+    padding-right: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.footer--socialmedia p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.footer--payments {
+    text-align: center;
+}
+
+.footer--payments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer--payments ul li {
+    display: inline;
+}
+
+.footer--payments ul li img {
+    height: 45px;
+    margin-right: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer--payments p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer--logo img {
+    height: 12.5rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+/*Footer Copyright*/
+.footer--copyright {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 13px;
+}

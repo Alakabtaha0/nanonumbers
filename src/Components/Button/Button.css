@@ -1,0 +1,23 @@
+.button-properties {
+    height: 50px;
+    width: 100px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 200ms linear;
+    border: 1px solid black;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.button-properties:hover {
+    color: black;
+    background-color: white;
+}

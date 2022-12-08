@@ -1,0 +1,58 @@
+* {
+    font-family: 'Roboto', 'Oswald', 'Montserrat', sans-serif;
+}
+
+/*This is to prevent the Page divs from taking space in the Nav bar*/
+.set-page {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+/*Standard title and subtitle format*/
+.page-title {
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    margin: 200px auto 0;
+}
+
+.page-subtitle {
+    text-align: center;
+    font-size: 17px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+/*center a paragraph*/
+.set-para-width {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*create flex box and center the items in the middle of the flex box*/
+.flexbox--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*easy way to set the cursor to pointer Ofcourse*/
+.cursor--pointer {
+    cursor: pointer;
+}
+
+/*To Start a flex item on a new line, input a line break div between the two items*/
+/*Need to have flex-wrap: wrap applied to flexbox*/
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+/*WIll use this alot*/
+.faq--title {
+    width: 100%;
+    text-align: center;
+}
